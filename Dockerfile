@@ -1,4 +1,4 @@
-FROM winglian/axolotl:main-2.5.0-cu121-2.4.0
+FROM winglian/axolotl:main
 
 # Install runpod SDK for serverless + requests for dataset download
 RUN pip install --no-cache-dir runpod pyyaml requests
